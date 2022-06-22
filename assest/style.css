@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800;900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,400;1,700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.first-one {
+  display: flex;
+  background-color: #272a31;
+  justify-content: flex-end;
+  align-items: center;
+  height: 25px;
+  gap: 15px;
+  padding-right: 15%;
+}
+
+#first-icons {
+  text-decoration: none;
+  color: #d3d3d3;
+  font-size: 14px;
+  font-family: 'Lato', serif;
+  display: flex;
+}
