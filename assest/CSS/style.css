@@ -54,5 +54,48 @@
 }
 
 .second-one .l-account:hover,.pro:hover,.speak:hover,.spons:hover {
-  color: rgb(110, 113, 117);
+  color: red;
 }
+
+h2 {
+  color: #EC5242;
+  font-size: 40px;
+  font-family: 'Lato', sans-serif;
+  line-height: 1em;
+  margin-top: 5%;
+  margin-left: 10%;
+}
+
+h1 {
+  color: #EC5242;
+  font-family: 'Cooper Black', sans-serif;
+  font-size: 64px;
+  margin-left: 10%;
+  width: 50%;
+}
+
+.description {
+  margin-left: 11%;
+  font-family: 'Lato', sans-serif;
+  width: 23%;
+  font-size: 17px;
+  text-align: justify;
+  color: #3B3B3B;
+}
+
+h3 {
+  font-family: 'poppins', sans-serif;
+  font-size: 30px;
+  margin-left: 10%;
+  color: #3B3B3B;
+  font-weight: 800;
+}
+
+.location {
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  margin-left: 10%;
+  color: #3B3B3B;
+}
+
+
