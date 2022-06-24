@@ -33,24 +33,23 @@
                 <a href="#sponsers" class="spons">Sponsers</a>
                 <a href="about.html" class="about">About</a>
             </nav>
-            <!--mobile version
             <nav class="third-one">
-                <a href="#"><img src="/assest/Images/humbergar.svg" alt="Humbergar icon" class="humbergar"></a>
-                <div class="forth-nave">
-                    <img src="/assest/Images/close.png" alt="close icon" class="close">
+                <a href="#"><img src="/assest/Images/humbergar.svg" alt="Humbergar icon" class="humbergar" id="humbergar"></a>
+                <div class="forth-nav">
+                    <img src="/assest/Images/close.png" alt="close icon" class="close" id="close">
                     <ul class="main">
-                        <li class="menu"><a href="#program" class="program-menu">Program</a></li>
+                        <li class="menu"><a href="#main-pro" class="program-menu">Program</a></li>
                         <li class="menu"><a href="#speakers" class="speakers-menu">Speakers</a></li>
                         <li class="menu"><a href="#sponsers" class="sponsers-menu">Sponsers</a></li>
                         <li class="menu"><a href="about.html" class="about-menu">About</a></li>
                     </ul>
                 </div>
-            </nav>-->
+            </nav>
         </div>
-        <!--End Main menu-->
     </header>
+    <!--End of header-->
     <!--start of home page-->
-    <section class="container">
+    <section class="container" id="home-1">
         <div class="home">
             <h2 class="hello">"Hello! Sharing world"</h2><br>
             <h1 class="sub-title">CREATIVE COMMONS GLOBAL SUMMIT 2022</h1><br><br>
@@ -59,11 +58,12 @@
             <p class="location">San Francisco, California, United States</p><br><br>
         </div>
     </section>
+    <br><br><br><br>
     <!--End of first page-->
     <!--Start the main menu-->
     <section class="container" id="main-pro">
         <h2 class="sections-title" id="main-program">Main Program</h2><br>
-        <hr><br><br>
+        <br><br>
         <div class="sections">
             <div class="sub-section">
                 <a href="#"><i class="fa fa-html5" id="logo-section"></i></a>
@@ -80,13 +80,52 @@
                 <h3 class="section-title">CSS</h3>
                 <p class="sub-description">CSS is a language that describes the style of an HTML document.</p>
             </div>
-           <!-- <div class="sub-section">
-                <a href=""><i class="fa fa-js"></i></a>
-                <h3 class="sub-title">Javascript</h3>
-                <p class="sub-description">JavaScript is the programming language of HTML and the Web.</p>
-            </div>-->
         </div>
+        <a href="www.microverse.org" id="see-program">See the whole program</a>
     </section>
     <!--End the main menu-->
+    <!--Start of featured speakers-->
+    <section id="speaker" class="container">
+        <div class="speakers">
+            <h2 class="speaker-title">Featured Speakers</h2>
+            <div class="first-one"></div>
+            <a href="#" id="more-speakers" class="more">
+                More
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                </svg>
+              </a>
+        </div>
+    </section><br>
+    <!--End of feautured spaeakers-->
+    <!--Start of partner-->
+    <section class="partner">
+        <h2 class="partner-title">Partner</h2>
+        <div class="partner-lists">
+            <img src="./assest/Images/instagram.png" alt="instagram" class="partner-list">
+            <img src="./assest/Images/youtube.png" alt="youtube" class="partner-list">
+            <img src="./assest/Images/twitter.png" alt="twitter" class="partner-list">
+            <img src="./assest/Images/twitch.png" alt="twitch" class="partner-list">
+        </div>
+    </section>
+    <!--End of partner-->
+    <footer id="footer" class="container">
+        <div class="total">
+        <div class="first-part">
+            <a href="https://www.linkedin.com/in/faranosh-amini-9b925b23a/">Faranosh Amini</a>
+        </div>
+        <div class="middle-part">
+            <p class="middle">
+                &copy;copyright 2022-Microverse. All right reserved.
+            </p>
+        </div>
+        <div class="last">
+            <p class="last">
+                Original design idea by Cindy Shin in Behance.
+            </p>
+        </div>
+    </div>
+    </footer>
+    <script src="/assest/script.js"></script>
 </body>
 </html>
