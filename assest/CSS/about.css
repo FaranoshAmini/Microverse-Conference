@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800;900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,400;1,700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.first-one {
+  display: flex;
+  background-color: #272a31;
+  justify-content: flex-end;
+  align-items: center;
+  height: 25px;
+  gap: 15px;
+  padding-right: 15%;
+}
+
+#first-icons {
+  text-decoration: none;
+  color: #d3d3d3;
+  font-size: 14px;
+  font-family: 'Lato', serif;
+  display: flex;
+}
+
+.second-nav-bar {
+  width: 100%;
+  background-color: #fff;
+  background-image: url('');
+}
+
+.second-one {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.second-one .l-account,.pro,.speak,.spons,.about {
+  text-decoration: none;
+  font-family: 'Lato', serif;
+  color: rgb(39, 42, 49);
+  padding: 20px;
+}
+
+.second-one .about {
+  margin-right: 20%;
+  border: 3px solid red;
+  padding: 5px;
+  color: red;
+}
+
+.second-one .l-account {
+  margin-left: -5%;
+}
+
+.second-one .l-account:hover,.pro:hover,.speak:hover,.spons:hover {
+  color: red;
+}
+
+.third-one {
+    display: none;
+}
+
+@media (max-width: 768px){
+  #first-nav-bar,#second-nav-bar {
+    display: none;
+  }
+
+}
