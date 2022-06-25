@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800;900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,400;1,700&display=swap");
+body{
+  padding: 0;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .logo {
+    display: none;
+  }
+
+  #first-nav-bar {
+    display: none;
+  }
+
+  .second-one {
+    display: none;
+  }
+
+  .forth-nav {
+    display: none;
+  }
+
+  .hamburger {
+    padding-left: 20px;
+    padding-top: 30px;
+
+  }
+
+  .hamburger-container {
+    background-color: #d3d3d3;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    display: none;
+  }
+
+  .extended {
+    display: block;
+  }
+
+  .main {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-style: normal;
+    gap: 50px;
+    font-family: 'lato', sans-serif;
+    padding: 10px 10px;
+    transition: ease-in-out 1s;
+  }
+
+  .menu {
+    color: #272a31;
+    list-style: none;
+    text-align: left;
+    padding: 10px;
+    margin: 10px;
+  }
+
+  .close {
+    margin: 30px;
+    display: flex;
+    justify-content: end;
+  }
+
+}
