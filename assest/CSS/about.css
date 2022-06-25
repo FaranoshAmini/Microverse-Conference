@@ -19,14 +19,14 @@
   text-decoration: none;
   color: #d3d3d3;
   font-size: 14px;
-  font-family: 'Lato', serif;
+  font-family: "Lato", serif;
   display: flex;
 }
 
 .second-nav-bar {
   width: 100%;
   background-color: #fff;
-  background-image: url('');
+  background-image: url("");
 }
 
 .second-one {
@@ -36,9 +36,13 @@
   align-items: center;
 }
 
-.second-one .l-account,.pro,.speak,.spons,.about {
+.second-one .l-account,
+.pro,
+.speak,
+.spons,
+.about {
   text-decoration: none;
-  font-family: 'Lato', serif;
+  font-family: "Lato", serif;
   color: rgb(39, 42, 49);
   padding: 20px;
 }
@@ -51,20 +55,115 @@
 }
 
 .second-one .l-account {
-  margin-left: -5%;
+  margin-right: 35%;
 }
 
-.second-one .l-account:hover,.pro:hover,.speak:hover,.spons:hover {
+.second-one .l-account:hover,
+.pro:hover,
+.speak:hover,
+.spons:hover {
   color: red;
 }
 
 .third-one {
-    display: none;
+  display: none;
 }
 
-@media (max-width: 768px){
-  #first-nav-bar,#second-nav-bar {
+#home-1 {
+  background: #f7f7f7;
+}
+
+.hello {
+  color: #ec5242;
+  font-size: 40px;
+  font-family: "Lato", sans-serif;
+  line-height: 1em;
+  text-align: center;
+  padding-top: 8%;
+}
+
+h1 {
+  color: #ec5242;
+  font-family: "Cooper Black", sans-serif;
+  font-size: 64px;
+  margin: auto;
+  width: 75%;
+}
+
+.description,
+.description-logo {
+  font-family: "Lato", sans-serif;
+  width: 60%;
+  font-size: 17px;
+  text-align: center;
+  color: #3b3b3b;
+  border: 4px solid white;
+  margin: auto;
+  line-height: 30px;
+}
+
+.contact {
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  color: #3b3b3b;
+  text-align: center;
+}
+
+.email {
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  color: #3b3b3b;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 5%;
+}
+
+#about-logo {
+  background-color: white;
+  padding-top: 0;
+  margin-top: 0;
+  font-family: "Lato", serif;
+}
+
+.title-logo {
+  color: #272a31;
+  font-size: 28px;
+  font-family: "Lato", sans-serif;
+  line-height: 1em;
+  text-align: center;
+  padding-top: 4%;
+}
+
+.title-logo::after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 4%;
+  padding-top: 12px;
+  border-bottom: 4px solid #ec5242;
+}
+
+.logo-image {
+  display: flex;
+  justify-content: center;
+  padding-left: 32%;
+  padding-bottom: 5%;
+}
+
+.images {
+  width: 100%;
+  margin: auto;
+  display: inline;
+}
+
+#f-img {
+    width: 330px;
+    height: 200px;
+}
+
+@media (max-width: 768px) {
+  #first-nav-bar,
+  #second-nav-bar {
     display: none;
   }
-
 }
