@@ -20,29 +20,29 @@ menuItem3.addEventListener('click', closeMenu);
 menuItem4.addEventListener('click', closeMenu);
 //Speakers Section
 const speakers = [{
-      Name: 'Ariel Camus',
-      Title: 'FOUNDER + CEO',
-      Image: 'images/Ariel.jpg',
-      More: 'Ariel has lived and worked in 7 different countries including Spain, Argentina, USA, and Vietnam',
-    },
-    {
-      Name: 'Andrea Funda',
-      Title: 'STUDENT SUCCESS',
-      Image: 'images/Andrea.png',
-      More: ' Professionally though, she loves helping people find their way. Her background is in process, project, and people management.',
-    },
-    {
-      Name: 'Emilia Andrezejewska',
-      Title: 'PRODUCT',
-      Image: 'images/Emilia.png',
-      More: 'Emilia is a web developer by profession and a teacher at heart.',
-    },
-    {
-      Name: 'Gaby Suarez',
-      Title: 'ADMISSIONS',
-      Image: 'images/Gaby.png',
-      More: 'Gaby is a native Salvadoran, Spanglish-speaking, dog (and sushi) lover.',
-    },
+  Name: 'Ariel Camus',
+  Title: 'FOUNDER + CEO',
+  Image: 'images/Ariel.jpg',
+  More: 'Ariel has lived and worked in 7 different countries including Spain, Argentina, USA, and Vietnam',
+},
+{
+  Name: 'Andrea Funda',
+  Title: 'STUDENT SUCCESS',
+  Image: 'images/Andrea.png',
+  More: ' Professionally though, she loves helping people find their way. Her background is in process, project, and people management.',
+},
+{
+  Name: 'Emilia Andrezejewska',
+  Title: 'PRODUCT',
+  Image: 'images/Emilia.png',
+  More: 'Emilia is a web developer by profession and a teacher at heart.',
+},
+{
+  Name: 'Gaby Suarez',
+  Title: 'ADMISSIONS',
+  Image: 'images/Gaby.png',
+  More: 'Gaby is a native Salvadoran, Spanglish-speaking, dog (and sushi) lover.',
+},
 ];
 
 const container = document.querySelector('.feature-speaker-container');
@@ -78,7 +78,7 @@ featureBoxContent.appendChild(featureBoxText1);
 const featureBoxText2 = document.createElement('div');
 featureBoxText2.classList.add('feature-box-text2', 'arielmore');
 featureBoxContent.appendChild(featureBoxText2);
- //Andrea
+//Andrea
 const featureBox2 = document.createElement('div');
 featureBox2.classList.add('feature-box');
 featureBoxContainer.appendChild(featureBox2);

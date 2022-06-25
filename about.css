@@ -319,7 +319,7 @@ a {
 
 }
 
-@media (min-width: 1025px) {
+@media (min-width: 769px) {
 
   .hamburger {
     display: none;
