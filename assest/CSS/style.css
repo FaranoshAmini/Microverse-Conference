@@ -57,12 +57,21 @@
   color: red;
 }
 
+.third-one {
+  display: none;
+}
+
+#home-1 {
+  background: #F7F7F7;
+}
+
 h2 {
   color: #EC5242;
   font-size: 40px;
   font-family: 'Lato', sans-serif;
   line-height: 1em;
   margin-left: 10%;
+  padding-top: 8%;
 }
 
 h1 {
@@ -80,6 +89,7 @@ h1 {
   font-size: 17px;
   text-align: justify;
   color: #3B3B3B;
+  border: 2px solid white;
 }
 
 h3 {
@@ -106,25 +116,29 @@ h3 {
   align-self: center;
 }
 
-.sections-title {
-  font-family: 'Lato', serif;
+#main-program {
   color: #D3D3D3;
-  font-size: 30px;
   margin: auto;
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 
-#main-program:after {
+#main-program::after {
   content: "";
   display: block;
   margin: 0 auto;
-  width: 30%;
-  padding-top: 1rem;
-  border-bottom: 2px solid #ec5242;
+  width: 20%;
+  padding-top: 10px;
+  border-bottom: 4px solid #ec5242;
 }
 
 .sections {
   display: flex;
   flex-direction: row;
+  gap: 10px;
+  width: 60%;
+  height: 20%;
+  margin: auto;
 }
 
 .sub-section {
@@ -132,21 +146,19 @@ h3 {
   flex-direction: column;
   align-items: stretch;
   background-color: rgba(255, 255, 255, 0.067);
-  border: 1px solid green;
   justify-content: center;
-  width: 15%;
   text-align: center;
   row-gap: 20px;
+  align-content: center;
   column-gap: 30px;
-  margin-left: 15%;
+  margin-right: 0;
+  margin-left: 0;
 }
 
 #logo-section {
-  flex-grow: 0;
-  font-size: 50px;
-  color: red;
-  background: white;
-  border-radius: 20%;
+  width: 40%;
+  height: 90%;
+  padding-top: 10px;
 }
 
 .section-title {
@@ -189,10 +201,20 @@ h3 {
   gap: 2rem;
 }
 
-.first-one {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
+.speaker-title {
+  color: rgb(97, 97, 97);
+  margin: auto;
+  padding-top: 4%;
+  padding-bottom: 2%;
+}
+
+#speaker .speaker-title::after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 20%;
+  padding-top: 10px;
+  border-bottom: 4px solid #ec5242;
 }
 
 #speaker .person {
@@ -238,20 +260,10 @@ h3 {
 }
 
 #speaker .person-Title {
-  color: rgb(204, 64, 48);
+  color: rgb(113, 101, 100);
   font-weight: 700;
   padding-bottom: 0.75rem;
   position: relative;
-}
-
-#speaker .person-Title::after {
-  border-bottom: 2px solid rgb(211, 211, 211);
-  position: absolute;
-  height: 1px;
-  width: 1rem;
-  content: "";
-  bottom: 0;
-  inset-inline-start: 0;
 }
 
 #speaker .person-More {
@@ -276,18 +288,28 @@ h3 {
   color: rgb(236, 82, 66);
 }
 
-.partner {
+#partner {
   display: flex;
   flex-direction: column;
-  gap: 20px;
   background-color: #333;
 }
 
 .partner-title {
   color: rgb(211, 211, 211);
   margin: auto;
+  padding-top: 4%;
+  padding-bottom: 2%;
 }
 
+
+.partner-title:after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 34%;
+  padding-top: 6px;
+  border-bottom: 4px solid #ec5242;
+}
 .partner-lists {
   display: flex;
   justify-content: center;
@@ -295,30 +317,40 @@ h3 {
   flex-wrap: wrap;
   align-content: flex-start;
   gap: 2rem;
+  padding-bottom: 4%;
 }
 
-.partner .partner-lists img {
+#partner .partner-lists img {
   opacity: 0.25;
   width: 2.7rem;
   height: 2.7rem;
 }
 
-.partner .partner-lists img:hover {
+#partner .partner-lists img:hover {
   opacity: 0.85;
 }
 
-#footer {
+.total {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-around;
-  padding: 5%;
+  float: right;
+  padding: 2%;
 }
 
 .first-part a {
   text-decoration: none;
 }
 
-@media (min-width: 768px) {
+.end {
+  float: left;
+  display: flex;
+  width: 30%;
+  height: 20%;
+  padding-left: 6%;
+}
+
+/*@media (min-width: 768px) {
   #main-program .sections{
     flex-direction: row;
     justify-content: center;
@@ -402,16 +434,16 @@ h3 {
     text-align: start;
     flex-direction: column;
   }
-}
+}*/
 
 @media (max-width: 768px){
-  /*.first-one {
+  .first-one {
     display: none;
   }
 
   .second-one {
     display: none;
-  }*/
+  }
 
   #home-1 {
     background-color: rgb(247, 247, 247);
@@ -424,10 +456,10 @@ h3 {
     flex-direction: column;
     gap: 0.2rem;
   }
-
-  /*.first-one a {
+ 
+  .first-one a {
     display: none;
-  }*/
+  }
 
   footer .total {
     display: flex;
