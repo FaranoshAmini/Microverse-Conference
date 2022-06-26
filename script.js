@@ -6,10 +6,10 @@ const menuItem2 = document.querySelector('#speaker');
 const menuItem3 = document.querySelector('#openAbout');
 const menuItem4 = document.querySelector('#sponsor');
 function openMenu() {
-  hamBurger.classList.toggle('extended');
+hamBurger.classList.toggle('extended');
 }
 function closeMenu() {
-  hamBurger.classList.remove('extended');
+hamBurger.classList.remove('extended');
 }
 hamBurgerBtn.addEventListener('click', openMenu);
 closeBtn.addEventListener('click', closeMenu);

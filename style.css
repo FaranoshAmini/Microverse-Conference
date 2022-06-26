@@ -4,7 +4,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: "lato", sans-serif;
-  background-color: #D3D3D3;
+  background-color: #d3d3d3;
 }
 
 a {
@@ -39,7 +39,7 @@ a {
   }
 
   .hamburger-container {
-    background-color: #D3D3D3;
+    background-color: #d3d3d3;
     width: 100vw;
     height: 100vh;
     position: fixed;
