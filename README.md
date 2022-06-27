@@ -1,5 +1,3 @@
-
-
 # MICROVERSE
 
 > This  Web page is  about MICROVERSE that contains information about Main program. I have used HTML, CSS and JavaScript for this project and you can use it in your local machin just by cloning this repo.
@@ -17,7 +15,7 @@
 - CSS
 - JavaScript
 
-This project built with the help of HTML, CSS and JavaScript you can see and use the cods by cloning this repo on your local machine using Git and GitHub.
+This project built with HTML,CSS and JavaScript you can see and use the cods by cloning this repo on your local machine using Git and GitHub.
 
 ## Getting Started
 
@@ -34,7 +32,7 @@ Clone the repositry and open the index.html which is in the folder.
 ## Authors
 
 - GitHub: [@FaranoshAmini](https://github.com/FaranoshAmini)
-- Twitter: [@Faranosh Amini]() 
+- Twitter: [@Faranosh_Amini](https://twitter.com/Faranosh_Amini) 
 - LinkedIn: [@Faranosh_Amini](https://www.linkedin.com/in/faranosh-amini-9b925b23a/)
 
 
@@ -50,10 +48,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Special Thanks [Cindy Shin](https://www.behance.net/adagio07) which is the author of [Orignal Design](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015).
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Special Thanks [Cindy Shin](https://www.behance.net/adagio07)
 
 ## 📝 License
 
