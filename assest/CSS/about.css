@@ -8,7 +8,7 @@
 
 .first-one {
   display: flex;
-  background-color: #272A31;
+  background-color: #272a31;
   justify-content: flex-end;
   align-items: center;
   height: 25px;
@@ -18,7 +18,7 @@
 
 #first-icons {
   text-decoration: none;
-  color: #D3D3D3;
+  color: #d3d3d3;
   font-size: 14px;
   font-family: "Lato", serif;
   display: flex;
@@ -26,7 +26,7 @@
 
 .second-nav-bar {
   width: 100%;
-  background-color: #FFF;
+  background-color: #fff;
   background-image: url("");
 }
 
@@ -71,11 +71,11 @@
 }
 
 #home-1 {
-  background: #F7F7F7;
+  background: #f7f7f7;
 }
 
 .hello {
-  color: #EC5242;
+  color: #ec5242;
   font-size: 40px;
   font-family: "Lato", sans-serif;
   line-height: 1em;
@@ -84,7 +84,7 @@
 }
 
 h1 {
-  color: #EC5242;
+  color: #ec5242;
   font-family: "Cooper Black", sans-serif;
   font-size: 64px;
   margin: auto;
@@ -98,7 +98,7 @@ h1 {
   width: 60%;
   font-size: 17px;
   text-align: center;
-  color: #3B3B3B;
+  color: #3b3b3b;
   border: 4px solid white;
   margin: auto;
   line-height: 30px;
@@ -107,14 +107,14 @@ h1 {
 .contact {
   font-family: "Lato", sans-serif;
   font-size: 18px;
-  color: #3B3B3B;
+  color: #3b3b3b;
   text-align: center;
 }
 
 .email {
   font-family: "Lato", sans-serif;
   font-size: 18px;
-  color: #3B3B3B;
+  color: #3b3b3b;
   display: flex;
   justify-content: center;
   padding-bottom: 5%;
@@ -128,7 +128,7 @@ h1 {
 }
 
 .title-logo {
-  color: #272A31;
+  color: #272a31;
   font-size: 28px;
   font-family: "Lato", sans-serif;
   line-height: 1em;
@@ -142,7 +142,7 @@ h1 {
   margin: 0 auto;
   width: 4%;
   padding-top: 12px;
-  border-bottom: 4px solid #EC5242;
+  border-bottom: 4px solid #ec5242;
 }
 
 .logo-image {
@@ -273,7 +273,7 @@ h1 {
     display: none;
   }
   .hello {
-    color: #EC5242;
+    color: #ec5242;
     font-size: 30px;
     font-family: "Lato", sans-serif;
     line-height: 1em;
@@ -281,13 +281,13 @@ h1 {
   }
 
   h1 {
-    color: #EC5242;
+    color: #ec5242;
     font-family: "Cooper Black", sans-serif;
     font-size: 44px;
     text-align: center;
     width: 100%;
   }
-  
+
   .description,
   .description-logo {
     font-family: "Lato", sans-serif;
@@ -295,9 +295,9 @@ h1 {
     font-size: 15px;
     text-align: center;
     margin: auto;
-    color: #3B3B3B;
+    color: #3b3b3b;
     background-color: white;
-    border: 4px solid #F7F7F7;
+    border: 4px solid #f7f7f7;
     line-height: 30px;
   }
 
