@@ -7,7 +7,7 @@
 
 -[SHORT DESCRIPTION](https://www.loom.com/share/1f1534db165e41c4bbc3bf05fb467947)
 
--[LIVE DEMO]() 
+-[LIVE DEMO](https://faranoshamini.github.io/First-Capstone-Project/) 
 
 ## Built With
 
