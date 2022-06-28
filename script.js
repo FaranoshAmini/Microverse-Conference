@@ -18,7 +18,7 @@ menuItem1.addEventListener('click', closeMenu);
 menuItem2.addEventListener('click', closeMenu);
 menuItem3.addEventListener('click', closeMenu);
 menuItem4.addEventListener('click', closeMenu);
-//Speakers Section 
+//Speakers Section
 const speakers = [{
   Name: 'Ariel Camus',
   Title: 'FOUNDER + CEO',
@@ -78,7 +78,7 @@ featureBoxContent.appendChild(featureBoxText1);
 const featureBoxText2 = document.createElement('div');
 featureBoxText2.classList.add('feature-box-text2', 'arielmore');
 featureBoxContent.appendChild(featureBoxText2);
-//Andrea 
+//Andrea
 const featureBox2 = document.createElement('div');
 featureBox2.classList.add('feature-box');
 featureBoxContainer.appendChild(featureBox2);
@@ -102,8 +102,7 @@ featureBoxContent2.appendChild(featureBoxText1r);
 const featureBoxText2r = document.createElement('div');
 featureBoxText2r.classList.add('feature-box-text2', 'andreamore');
 featureBoxContent2.appendChild(featureBoxText2r);
-// Emilia 
-
+// Emilia
 const featureBox3 = document.createElement('div');
 featureBox3.classList.add('feature-box');
 featureBoxContainer.appendChild(featureBox3);
@@ -128,7 +127,6 @@ const featureBoxText2s = document.createElement('div');
 featureBoxText2s.classList.add('feature-box-text2', 'emiliamore');
 featureBoxContent3.appendChild(featureBoxText2s);
 //Gaby 
-
 const featureBox4 = document.createElement('div');
 featureBox4.classList.add('feature-box');
 featureBoxContainer.appendChild(featureBox4);
