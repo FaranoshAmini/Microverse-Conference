@@ -3,7 +3,6 @@
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Lato', sans-serif;
 }
 
 a {
@@ -15,6 +14,7 @@ a {
 }
 
 @media (max-width: 768px) {
+
   .first-logo {
     display: none;
   }
@@ -98,7 +98,7 @@ a {
   }
 
   .sub-title {
-    color: #ec5242;
+    color: #EC5242;
     font-size: 40px;
     text-align: center;
     padding-top: 150px;
@@ -229,7 +229,7 @@ a {
   }
 
   .one {
-    background-image: url('./images/new.png');
+    background-image: url(images/people-4050698_640.jpg);
     height: 300px;
     width: 300px;
   }
@@ -257,7 +257,7 @@ a {
   }
 
   .two {
-    background-image: url('./images/new2.jpg');
+    background-image: url(images/team-386673_640.jpg);
     height: 300px;
     width: 300px;
   }
@@ -319,7 +319,8 @@ a {
 
 }
 
-@media (min-width: 769px) {
+@media (min-width: 1025px) {
+
   .hamburger {
     display: none;
   }
@@ -386,7 +387,7 @@ a {
   }
 
   .heading {
-    background-image: url('./images/student-849825_1920.jpg');
+    background-image: url(images/student-849825_1920.jpg);
   }
 
   .home {
@@ -415,9 +416,11 @@ a {
     width: 20%;
     padding-top: 1rem;
     border-bottom: 2px solid #ec5242;
+
   }
 
   .description {
+    border: 2px solid gray;
     color: #272a31;
     font-size: 30px;
     line-height: 40px;
@@ -531,9 +534,9 @@ a {
   }
 
   .one {
-    background-image: url('./images/new.png');
+    background-image: url(images/people-4050698_640.jpg);
     height: 400px;
-    width: 600px;
+    width: 500px;
   }
 
   .one-content {
@@ -558,7 +561,7 @@ a {
   }
 
   .two {
-    background-image: url('./images/new2.jpg');
+    background-image: url(images/team-386673_640.jpg);
     height: 400px;
     width: 600px;
   }
@@ -616,4 +619,8 @@ a {
     color: #d3d3d3;
     font-size: 17px;
   }
+
+
+
+
 }

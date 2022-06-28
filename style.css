@@ -11,7 +11,18 @@ a {
   text-decoration: none;
 }
 
+.feature-speaker-container {
+  background-color: white;
+  padding-bottom: 30px;
+}
+
+.hamburger {
+  position: fixed;
+}
+
+
 @media (max-width: 1024px) {
+
   .logo {
     display: none;
   }
@@ -31,6 +42,7 @@ a {
   .hamburger {
     padding-left: 20px;
     padding-top: 30px;
+
   }
 
   .hamburger-container {
@@ -44,31 +56,66 @@ a {
     display: none;
   }
 
+  .extended {
+    display: block;
+  }
+
+  .main {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-style: normal;
+    gap: 50px;
+    font-family: 'lato', sans-serif;
+    padding: 10px 10px;
+    transition: ease-in-out 1s;
+  }
+
+  .menu {
+    color: #272a31;
+    list-style: none;
+    text-align: left;
+    padding: 10px;
+    margin: 10px;
+  }
+
+  .close {
+    margin: 30px;
+    display: flex;
+    justify-content: end;
+  }
+
   .heading {
-    background-image: url(images/student-849825_1280.jpg);
+    background-image: url('./images/student-849825_1280.jpg');
     background-repeat: no-repeat;
   }
 
   .home {
     background-color: #fcfcfce8;
+
   }
 
   .hello {
-    color: #ec5242;
+    color: #EC5242;
     font-size: 30px;
     font-family: 'Lato', sans-serif;
     padding-left: 20px;
-    padding-top: 70px;
+    padding-top: 150px;
     padding-bottom: 0;
     margin-bottom: 0;
+    margin-top: 0;
   }
 
   .sub-title {
-    color: #ec5242;
+    color: #EC5242;
     font-size: 40px;
     padding-left: 20px;
     margin-top: 0;
     margin-bottom: 0;
+
   }
 
   .description {
@@ -87,7 +134,7 @@ a {
     font-family: 'lato', sans-serif;
     font-size: 30px;
     padding-left: 20px;
-    color: #3b3b3b;
+    color: #3B3B3B;
     font-weight: bold;
     margin-top: 0;
     margin-bottom: 0;
@@ -97,7 +144,7 @@ a {
     font-family: 'Lato', sans-serif;
     font-size: 18px;
     padding-left: 20px;
-    color: #3b3b3b;
+    color: #3B3B3B;
     margin-top: 0;
     margin-bottom: 0;
   }
@@ -158,6 +205,70 @@ a {
     font-family: 'lato', sans-serif;
     color: white;
     text-align: left;
+  }
+
+  .featuring {
+    color: #272a31;
+    text-align: center;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 40px;
+    margin-top: 0;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+
+  .featuring::after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 6%;
+    padding-top: 1rem;
+    border-bottom: 2px solid #ec5242;
+  }
+
+  .feature-box-container {
+    display: grid;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .feature-box {
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    gap: 10px;
+  }
+
+  .last {
+    margin-bottom: 30px;
+  }
+
+  .feature-box-text {
+    color: #272a31;
+    font-size: 17px;
+    font-weight: bold;
+  }
+
+  .feature-box-text1 {
+    color: red;
+    font-size: 15px;
+    border-bottom: 1px solid grey;
+    margin-right: 50px;
+    margin-bottom: 5px;
+    font-family: 'Lato', sans-serif;
+  }
+
+  .feature-box-text2 {
+    color: #272a31;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+  }
+
+  .image {
+    width: 100px;
+    height: 100px;
   }
 
   #partner {
@@ -234,6 +345,7 @@ a {
 }
 
 @media (min-width: 1025px) {
+
   .hamburger {
     display: none;
   }
@@ -301,11 +413,11 @@ a {
 
   .link-1 {
     border: 3px solid #ec5242;
-    padding: 4px;
+    padding: 5px;
   }
 
   .heading {
-    background-image: url(./images/student-849825_1920.jpg);
+    background-image: url(images/student-849825_1920.jpg);
   }
 
   .home {
@@ -317,7 +429,7 @@ a {
     font-size: 50px;
     font-family: 'Lato', sans-serif;
     padding-left: 90px;
-    padding-top: 60px;
+    padding-top: 80px;
     text-align: left;
     margin-top: 0;
     margin-bottom: 0;
@@ -325,9 +437,9 @@ a {
 
   .sub-title {
     color: #ec5242;
-    font-size: 60px;
+    font-size: 70px;
     padding-left: 90px;
-    width: 80%;
+    width: 60%;
     font-family: 'lato', sans-serif;
     text-align: left;
     margin-top: 0;
@@ -342,6 +454,7 @@ a {
     width: 40%;
     max-width: 100%;
     margin-right: 40px;
+    padding: 5px;
     border: 3px solid white;
     margin-top: 0;
     margin-bottom: 0;
@@ -411,7 +524,8 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 2px;
+    margin-top: 10px;
+    margin-bottom: 20px;
     padding: 10px;
     background-color: #fcfcfc1f;
     width: 300px;
@@ -436,6 +550,7 @@ a {
     padding-bottom: 10px;
   }
 
+
   .feature-box-container {
     display: grid;
     grid-template-columns: 500px 500px;
@@ -447,8 +562,8 @@ a {
   .featuring {
     text-align: center;
     font-size: 40px;
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-top: 0;
+    padding-top: 40px;
   }
 
   .featuring::after {
@@ -463,6 +578,10 @@ a {
   .feature-box {
     display: flex;
     gap: 10px;
+  }
+
+  .image {
+    width: 150px;
   }
 
   .feature-box-text {
@@ -523,7 +642,7 @@ a {
     list-style: none;
     padding: 10px 10px;
     opacity: 0.5;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
   }
 
   #footer {
@@ -533,10 +652,10 @@ a {
     gap: 50px;
     padding-bottom: 20px;
   }
-  
+
   .total {
     display: flex;
-   gap: 50px;
+    gap: 50px;
     align-items: center;
     padding-top: 15px;
   }
@@ -545,7 +664,7 @@ a {
     color: purple;
     background-color: white;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -559,4 +678,5 @@ a {
     color: #272a31;
     font-size: 17px;
   }
+
 }
