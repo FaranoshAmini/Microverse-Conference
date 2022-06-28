@@ -14,7 +14,6 @@ a {
 }
 
 @media (max-width: 768px) {
-
   .first-logo {
     display: none;
   }
@@ -98,7 +97,7 @@ a {
   }
 
   .sub-title {
-    color: #EC5242;
+    color: #ec5242;
     font-size: 40px;
     text-align: center;
     padding-top: 150px;
@@ -316,11 +315,9 @@ a {
     color: #d3d3d3;
     font-size: 17px;
   }
-
 }
 
 @media (min-width: 1025px) {
-
   .hamburger {
     display: none;
   }
@@ -406,7 +403,6 @@ a {
     margin-top: 0;
     margin-bottom: 0;
     font-weight: bold;
-    padding-bottom: 100px;
   }
 
   .sub-title::after {
@@ -416,21 +412,19 @@ a {
     width: 20%;
     padding-top: 1rem;
     border-bottom: 2px solid #ec5242;
-
   }
 
   .description {
-    border: 2px solid gray;
     color: #272a31;
     font-size: 30px;
     line-height: 40px;
     padding: 15px;
     text-align: left;
-    margin-left: 20px;
-    margin-right: 20px;
     border: 3px solid white;
     max-width: 1000px;
     margin: 0 auto;
+    margin-left: 20px;
+    margin-right: 20px;
     background-color: #fcfcfc;
   }
 
@@ -445,7 +439,6 @@ a {
     font-size: 30px;
     text-decoration: none;
     color: #272a31;
-    padding-bottom: 30px;
     font-weight: bold;
     padding-bottom: 50px;
   }
@@ -534,7 +527,7 @@ a {
   }
 
   .one {
-    background-image: url(images/people-4050698_640.jpg);
+    background-image: url('./images/people-4050698_640.jpg');
     height: 400px;
     width: 500px;
   }
@@ -619,8 +612,4 @@ a {
     color: #d3d3d3;
     font-size: 17px;
   }
-
-
-
-
 }

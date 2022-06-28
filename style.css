@@ -20,9 +20,7 @@ a {
   position: fixed;
 }
 
-
 @media (max-width: 1024px) {
-
   .logo {
     display: none;
   }
@@ -42,7 +40,6 @@ a {
   .hamburger {
     padding-left: 20px;
     padding-top: 30px;
-
   }
 
   .hamburger-container {
@@ -95,7 +92,6 @@ a {
 
   .home {
     background-color: #fcfcfce8;
-
   }
 
   .hello {
@@ -110,12 +106,11 @@ a {
   }
 
   .sub-title {
-    color: #EC5242;
+    color: #ec5242;
     font-size: 40px;
     padding-left: 20px;
     margin-top: 0;
     margin-bottom: 0;
-
   }
 
   .description {
@@ -134,7 +129,7 @@ a {
     font-family: 'lato', sans-serif;
     font-size: 30px;
     padding-left: 20px;
-    color: #3B3B3B;
+    color: #3b3b3b;
     font-weight: bold;
     margin-top: 0;
     margin-bottom: 0;
@@ -144,7 +139,7 @@ a {
     font-family: 'Lato', sans-serif;
     font-size: 18px;
     padding-left: 20px;
-    color: #3B3B3B;
+    color: #3b3b3b;
     margin-top: 0;
     margin-bottom: 0;
   }
@@ -345,7 +340,6 @@ a {
 }
 
 @media (min-width: 1025px) {
-
   .hamburger {
     display: none;
   }
@@ -417,7 +411,7 @@ a {
   }
 
   .heading {
-    background-image: url(images/student-849825_1920.jpg);
+    background-image: url('./images/student-849825_1920.jpg');
   }
 
   .home {
@@ -550,7 +544,6 @@ a {
     padding-bottom: 10px;
   }
 
-
   .feature-box-container {
     display: grid;
     grid-template-columns: 500px 500px;
@@ -678,5 +671,4 @@ a {
     color: #272a31;
     font-size: 17px;
   }
-
 }
