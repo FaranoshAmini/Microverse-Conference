@@ -238,7 +238,7 @@ function gaby() {
   document.querySelector('.gabymore').innerHTML = speakers[3].More;
 }
 
-function bee(){ 
+function bee(){
   document.querySelector('.beeimage').src = `${speakers[4].Image}`;
   document.querySelector('.beename').innerHTML = speakers[4].Name;
   document.querySelector('.beetitle').innerHTML = speakers[4].Title;
