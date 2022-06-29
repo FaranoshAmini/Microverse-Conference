@@ -47,12 +47,18 @@ const speakers = [{
   Title: 'STUDENT SUCCESS',
   Image: 'images/bee.jpg',
   More: 'Based in the heart of Central America, Bee is a language-loving nerd.',
+},
+{
+  Name: 'Benjamin Rojsuontikul',
+  Title: 'FINANCE',
+  Image: 'images/binjamin.png',
+  More: 'Ben is a former Peace Corps volunteer turned Valuation and Financial Modeling professional.',
 }
 ];
 
 const container = document.querySelector('.feature-speaker-container');
 const h3 = document.createElement('h3');
-h3.append('Featuring');
+h3.append('Featured Speakers');
 h3.classList.add('featuring');
 container.appendChild(h3);
 
@@ -155,6 +161,54 @@ featureBoxContent4.appendChild(featureBoxText1st);
 const featureBoxText2st = document.createElement('div');
 featureBoxText2st.classList.add('feature-box-text2', 'gabymore');
 featureBoxContent4.appendChild(featureBoxText2st);
+//
+const featureBox5 = document.createElement('div');
+featureBox5.classList.add('feature-box');
+featureBoxContainer.appendChild(featureBox5);
+
+const image5 = document.createElement('img');
+image5.classList.add('image', 'beeimage');
+featureBox5.appendChild(image5);
+
+const featureBoxContent5 = document.createElement('div');
+featureBoxContent5.classList.add('feature-box-content');
+featureBox5.appendChild(featureBoxContent5);
+
+const featureBoxTextf = document.createElement('div');
+featureBoxTextf.classList.add('feature-box-text', 'beename');
+featureBoxContent5.appendChild(featureBoxTextf);
+
+const featureBoxText1f = document.createElement('div');
+featureBoxText1f.classList.add('feature-box-text1', 'beetitle');
+featureBoxContent5.appendChild(featureBoxText1f);
+
+const featureBoxText2f = document.createElement('div');
+featureBoxText2f.classList.add('feature-box-text2', 'beemore');
+featureBoxContent5.appendChild(featureBoxText2f);
+//
+const featureBox6 = document.createElement('div');
+featureBox6.classList.add('feature-box');
+featureBoxContainer.appendChild(featureBox6);
+
+const image6 = document.createElement('img');
+image6.classList.add('image', 'binjaminimage');
+featureBox6.appendChild(image6);
+
+const featureBoxContent6 = document.createElement('div');
+featureBoxContent6.classList.add('feature-box-content');
+featureBox6.appendChild(featureBoxContent6);
+
+const featureBoxTexth = document.createElement('div');
+featureBoxTexth.classList.add('feature-box-text', 'binjaminname');
+featureBoxContent6.appendChild(featureBoxTexth);
+
+const featureBoxText1h = document.createElement('div');
+featureBoxText1h.classList.add('feature-box-text1', 'binjamintitle');
+featureBoxContent6.appendChild(featureBoxText1h);
+
+const featureBoxText2h = document.createElement('div');
+featureBoxText2h.classList.add('feature-box-text2', 'binjaminmore');
+featureBoxContent6.appendChild(featureBoxText2h);
 
 function ariel() {
   document.querySelector('.arielimage').src = `${speakers[0].Image}`;
@@ -184,7 +238,22 @@ function gaby() {
   document.querySelector('.gabymore').innerHTML = speakers[3].More;
 }
 
+function bee(){
+  document.querySelector('.beeimage').src = `${speakers[4].Image}`;
+  document.querySelector('.beename').innerHTML = speakers[4].Name;
+  document.querySelector('.beetitle').innerHTML = speakers[4].Title;
+  document.querySelector('.beemore').innerHTML = speakers[4].More;
+}
+
+function binjamin(){
+  document.querySelector('.binjaminimage').src = `${speakers[5].Image}`;
+  document.querySelector('.binjaminname').innerHTML = speakers[5].Name;
+  document.querySelector('.binjamintitle').innerHTML = speakers[5].Title;
+  document.querySelector('.binjaminmore').innerHTML = speakers[5].More;
+}
 ariel();
 andrea();
 emilia();
 gaby();
+bee();
+binjamin();

@@ -249,13 +249,14 @@ a {
 
   .feature-box-text {
     color: #272a31;
-    font-size: 17px;
+    font-size: 16px;
     font-weight: bold;
+    margin-top: 15px;
   }
 
   .feature-box-text1 {
     color: red;
-    font-size: 15px;
+    font-size: 14px;
     border-bottom: 1px solid grey;
     margin-right: 50px;
     margin-bottom: 5px;
@@ -264,7 +265,7 @@ a {
 
   .feature-box-text2 {
     color: #272a31;
-    font-size: 15px;
+    font-size: 12px;
     font-family: 'Lato', sans-serif;
   }
 
@@ -606,6 +607,7 @@ a {
     color: #272a31;
     font-size: 18px;
     font-weight: bold;
+    margin-top: 15px;
   }
 
   .feature-box-text1 {
