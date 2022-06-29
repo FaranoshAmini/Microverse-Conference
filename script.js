@@ -42,6 +42,12 @@ const speakers = [{
   Image: 'images/Gaby.png',
   More: 'Gaby is a native Salvadoran, Spanglish-speaking, dog (and sushi) lover.',
 },
+{
+  Name:'Bee Quesada',
+  Title: 'STUDENT SUCCESS',
+  Image: 'images/bee.jpg',
+  More: 'Based in the heart of Central America, Bee is a language-loving nerd.',
+}
 ];
 
 const container = document.querySelector('.feature-speaker-container');

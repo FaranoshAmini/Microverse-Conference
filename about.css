@@ -3,6 +3,7 @@
 body {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 a {
@@ -13,7 +14,7 @@ a {
   position: fixed;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .first-logo {
     display: none;
   }
@@ -333,12 +334,13 @@ a {
     padding: 5px 200px;
     gap: 20px;
     background-color: #272a31;
+    font-family: 'Lato',serif;
   }
 
   #first-icons {
     text-decoration: none;
     color: #d3d3d3;
-    font-size: 18px;
+    font-size: 14px;
     transition: ease-in-out 0.5s;
   }
 
@@ -364,6 +366,7 @@ a {
     align-items: center;
     background-color: white;
     padding: 5px;
+    font-family: 'Lato', serif;
   }
 
   .second-one {
@@ -384,7 +387,7 @@ a {
   }
 
   .heading {
-    background-image: url(images/student-849825_1920.jpg);
+    background-image: url('images/student-849825_1920.jpg');
   }
 
   .home {
@@ -395,9 +398,9 @@ a {
 
   .sub-title {
     color: #ec5242;
-    font-size: 70px;
-    font-family: 'lato', sans-serif;
-    padding-top: 40px;
+    font-size: 60px;
+    font-family: 'Lato', sans-serif;
+    padding-top: 100px;
     padding-bottom: 20px;
     text-align: center;
     margin-top: 0;
@@ -409,35 +412,33 @@ a {
     content: "";
     display: block;
     margin: 0 auto;
-    width: 20%;
+    width: 10%;
     padding-top: 1rem;
     border-bottom: 2px solid #ec5242;
   }
 
   .description {
     color: #272a31;
-    font-size: 30px;
+    font-size: 16px;
+    font-family: 'Lato', serif;
     line-height: 40px;
-    padding: 15px;
-    text-align: left;
+    margin: auto;
+    margin-top: 5%;
     border: 3px solid white;
     max-width: 1000px;
-    margin: 0 auto;
-    margin-left: 20px;
-    margin-right: 20px;
     background-color: #fcfcfc;
   }
 
   .contact {
     text-align: center;
     color: #272a31;
-    font-weight: bold;
-    font-size: 30px;
+    font-family: 'Lato', serif;
+    font-size: 18px;
+    margin-top: 7%;
   }
 
   .email {
-    font-size: 30px;
-    text-decoration: none;
+    font-size: 18px;
     color: #272a31;
     font-weight: bold;
     padding-bottom: 50px;
@@ -448,13 +449,14 @@ a {
     flex-direction: column;
     align-items: center;
     gap: 20px;
-    margin-top: 40px;
+    margin-top: 20px;
   }
 
   .title-logo {
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bold;
     text-align: center;
+    font-family: 'kanit', serif;
   }
 
   .title-logo::after {
@@ -467,12 +469,13 @@ a {
   }
 
   .description-logo {
-    color: #272a31;
+    color: rgb(110, 113, 117);
     margin-left: 20px;
     margin-right: 20px;
-    padding: 10px;
+    margin-top: 0;
     line-height: 40px;
-    font-size: 25px;
+    font-size: 18px;
+    font-family: 'kanit', serif;
     max-width: 1000px;
     text-align: center;
   }
@@ -499,7 +502,7 @@ a {
 
   .past {
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     padding-top: 20px;
     color: #272a31;
   }
@@ -515,7 +518,7 @@ a {
 
   .look {
     text-align: center;
-    font-size: 24px;
+    font-size: 18px;
     color: #272a31;
   }
 
