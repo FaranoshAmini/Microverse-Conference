@@ -238,13 +238,13 @@ function gaby() {
   document.querySelector('.gabymore').innerHTML = speakers[3].More;
 }
 
-function bee(){
+function bee() {
   document.querySelector('.beeimage').src = `${speakers[4].Image}`;
   document.querySelector('.beename').innerHTML = speakers[4].Name;
   document.querySelector('.beetitle').innerHTML = speakers[4].Title;
   document.querySelector('.beemore').innerHTML = speakers[4].More;
 }
-function binjamin(){
+function binjamin() {
   document.querySelector('.binjaminimage').src = `${speakers[5].Image}`;
   document.querySelector('.binjaminname').innerHTML = speakers[5].Name;
   document.querySelector('.binjamintitle').innerHTML = speakers[5].Title;
