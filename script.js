@@ -43,7 +43,7 @@ const speakers = [{
   More: 'Gaby is a native Salvadoran, Spanglish-speaking, dog (and sushi) lover.',
 },
 {
-  Name:'Bee Quesada',
+  Name: 'Bee Quesada',
   Title: 'STUDENT SUCCESS',
   Image: 'images/bee.jpg',
   More: 'Based in the heart of Central America, Bee is a language-loving nerd.',
@@ -53,7 +53,7 @@ const speakers = [{
   Title: 'FINANCE',
   Image: 'images/binjamin.png',
   More: 'Ben is a former Peace Corps volunteer turned Valuation and Financial Modeling professional.',
-}
+},
 ];
 
 const container = document.querySelector('.feature-speaker-container');
@@ -238,13 +238,12 @@ function gaby() {
   document.querySelector('.gabymore').innerHTML = speakers[3].More;
 }
 
-function bee(){
+function bee(){ 
   document.querySelector('.beeimage').src = `${speakers[4].Image}`;
   document.querySelector('.beename').innerHTML = speakers[4].Name;
   document.querySelector('.beetitle').innerHTML = speakers[4].Title;
   document.querySelector('.beemore').innerHTML = speakers[4].More;
 }
-
 function binjamin(){
   document.querySelector('.binjaminimage').src = `${speakers[5].Image}`;
   document.querySelector('.binjaminname').innerHTML = speakers[5].Name;
