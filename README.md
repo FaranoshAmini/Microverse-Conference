@@ -5,7 +5,7 @@
 
 ## 🖥️ Live Demo
 
--[SHORT DESCRIPTION](https://www.loom.com/share/1f1534db165e41c4bbc3bf05fb467947//)
+-[SHORT DESCRIPTION](https://www.loom.com/share/1f1534db165e41c4bbc3bf05fb467947)
 
 -[LIVE DEMO](https://faranoshamini.github.io/First-Capstone-Project/) 
 
@@ -29,7 +29,7 @@ You must have a browser and a git version installed on your device, and clone th
 
 Clone the repositry and open the index.html which is in the folder.
 
-## Authors
+## Author
 
 - GitHub: [@FaranoshAmini](https://github.com/FaranoshAmini)
 - Twitter: [@Faranosh_Amini](https://twitter.com/Faranosh_Amini) 
