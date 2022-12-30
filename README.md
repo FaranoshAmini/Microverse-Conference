@@ -1,4 +1,4 @@
-# MICROVERSE
+# MICROVERSE CONFERENCE
 
 > This  Web page is  about MICROVERSE that contains information about Main program. I have used HTML, CSS and JavaScript for this project and you can use it in your local machin just by cloning this repo.
 
