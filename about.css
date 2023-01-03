@@ -67,7 +67,7 @@ a {
     font-size: 30px;
     font-style: normal;
     gap: 50px;
-    font-family: 'lato', sans-serif;
+    font-family: "lato", sans-serif;
     padding: 10px 10px;
     transition: ease-in-out 1s;
   }
@@ -334,7 +334,7 @@ a {
     padding: 5px 200px;
     gap: 20px;
     background-color: #272a31;
-    font-family: 'Lato', serif;
+    font-family: "Lato", serif;
   }
 
   #first-icons {
@@ -366,7 +366,7 @@ a {
     align-items: center;
     background-color: white;
     padding: 5px;
-    font-family: 'Lato', serif;
+    font-family: "Lato", serif;
   }
 
   .second-one {
@@ -387,7 +387,7 @@ a {
   }
 
   .heading {
-    background-image: url('images/student-849825_1920.jpg');
+    background-image: url("images/student-849825_1920.jpg");
   }
 
   .home {
@@ -399,7 +399,7 @@ a {
   .sub-title {
     color: #ec5242;
     font-size: 60px;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     padding-top: 100px;
     padding-bottom: 20px;
     text-align: center;
@@ -420,7 +420,7 @@ a {
   .description {
     color: #272a31;
     font-size: 16px;
-    font-family: 'Lato', serif;
+    font-family: "Lato", serif;
     line-height: 40px;
     margin: auto;
     margin-top: 5%;
@@ -432,7 +432,7 @@ a {
   .contact {
     text-align: center;
     color: #272a31;
-    font-family: 'Lato', serif;
+    font-family: "Lato", serif;
     font-size: 18px;
     margin-top: 7%;
   }
@@ -456,7 +456,7 @@ a {
     font-size: 30px;
     font-weight: bold;
     text-align: center;
-    font-family: 'kanit', serif;
+    font-family: "kanit", serif;
   }
 
   .title-logo::after {
@@ -475,7 +475,7 @@ a {
     margin-top: 0;
     line-height: 30px;
     font-size: 18px;
-    font-family: 'kanit', serif;
+    font-family: "kanit", serif;
     max-width: 1000px;
     text-align: center;
   }
@@ -559,7 +559,7 @@ a {
   .two {
     background-image: url(./images/new1.png);
     height: 400px;
-    width: 600px;
+    width: 500px;
   }
 
   .two-content {
