@@ -324,17 +324,10 @@ a {
     font-size: 17px;
   }
 
-  /* .feature-box-container {
-  padding-left: 0;
-} */
 }
 
 @media (min-width: 1025px) {
-  .hamburger {
-    display: none;
-  }
-
-  .hamburger-container {
+  .hamburger,.hamburger-container {
     display: none;
   }
 
@@ -597,8 +590,7 @@ a {
    .middle {
     color: #272a31;
     font-size: 17px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 20px 0;
     text-align: center;
   }
 }
