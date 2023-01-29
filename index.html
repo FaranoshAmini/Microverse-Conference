@@ -1,200 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css"
-      integrity="sha256-XoaMnoYC5TH6/+ihMEnospgm0J1PM/nioxbOUdnM8HY="
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <title>Microverse</title>
-  </head>
-  <body>
-    <div class="header" id="first-nav-bar">
-      <a href="" id="first-icons"><i class="fa fa-facebook"></i></a>
-      <a href="https://twitter.com/Faranosh_Amini" id="first-icons"
-        ><i class="fa fa-twitter"></i
-      ></a>
-      <div><a href="#" id="first-icons">English</a></div>
-      <div><a href="#" id="first-icons">MyPage</a></div>
-      <div><a href="#" id="first-icons">Logout</a></div>
-    </div>
-    <header>
-      <div><a href="index.html" class="logo">Microverse</a></div>
-      <nav>
-        <div class="hamburger-container">
-          <div class="close">
-            <img
-              width="40px"
-              src="./images/close.png"
-              alt="close icon"
-              id="close"
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css"
+            integrity="sha256-XoaMnoYC5TH6/+ihMEnospgm0J1PM/nioxbOUdnM8HY="crossorigin="anonymous"
             />
-          </div>
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Microverse</title>
+    </head>
+    <body>
+        <div class="header" id="first-nav-bar">
+            <a href="" id="first-icons"><i class="fa fa-facebook"></i></a>
+            <a href="https://twitter.com/Faranosh_Amini" id="first-icons"><i
+                    class="fa fa-twitter"></i></a>
+            <div><a href="#" id="first-icons">English</a></div>
+            <div><a href="#" id="first-icons">MyPage</a></div>
+            <div> <a href="#" id="first-icons">Logout</a></div>
+        </div>
+        <header>
+            <div><a href="index.html" class="logo">Microverse</a>
+            </div>
+            <nav>
+                <div class="hamburger-container">
+                    <div class="close"> <img width="40px" src="./i/close.png"
+                            alt="close icon" id="close"></div>
 
-          <ul class="main">
-            <li class="menu">
-              <a href="#main-pro" onclick="openMenu()" class="menu" id="program"
-                >Program</a
-              >
-            </li>
-            <li class="menu">
-              <a href="#speaker" onclick="openMenu()" class="menu" id="speaker"
-                >Speakers</a
-              >
-            </li>
-            <li class="menu">
-              <a href="#partner" onclick="openMenu()" class="menu" id="sponsor"
-                >Sponsors</a
-              >
-            </li>
-            <li class="menu">
-              <a
-                href="about.html"
-                onclick="openMenu()"
-                class="menu"
-                id="openAbout"
-                >About</a
-              >
-            </li>
-          </ul>
-        </div>
-        <ul class="second-one">
-          <li><a href="#main-program" class="link">Programs</a></li>
-          <li><a href="#speaker" class="link">Speakers</a></li>
-          <li><a href="#partner" class="link">Partner</a></li>
-          <li><a href="about.html" class="link-1">About</a></li>
-        </ul>
-      </nav>
-    </header>
-    <!--start of home page-->
-    <section class="heading" id="home-1">
-      <div class="home">
-        <img
-          src="./images\hamburger.png"
-          alt="Humbergar
-                    icon"
-          class="hamburger"
-          width="50px"
-          id="hamburger"
-        />
-        <p class="hello">"Hello! Sharing world"</p>
-        <br />
-        <h1 class="sub-title">The Best Online School 2022</h1>
-        <br />
-        <p class="description">
-          Microverse is a global school for remote software developers where
-          students learn through remote pair programming and don't pay anything
-          until they get a job.
-        </p>
-        <br /><br />
-        <h4 class="date">2022.6.22 (MON) ~ (Friday)</h4>
-        <br />
-        <p class="location">San Francisco, California, United States</p>
-        <br /><br />
-      </div>
-    </section>
-    <section id="main-pro">
-      <h2 class="sections-title" id="main-program">Main Program</h2>
-      <br />
-      <br /><br />
-      <div class="sections">
-        <div class="sub-section">
-          <img
-            class="sub-image"
-            src="./images/html5.svg"
-            alt=""
-            id="logo-section"
-          />
-          <h4 class="section-title">HTML</h4>
-          <p class="sub-description">
-            HTML is the standard markup language for creating Web pages.
-          </p>
-          <br />
-        </div>
-        <div class="sub-section">
-          <img
-            class="sub-image"
-            src="./images/react.svg"
-            alt=""
-            id="logo-section"
-          />
-          <h4 class="section-title">React</h4>
-          <p class="sub-description">
-            React is a free and open-source front-end javascript library.
-          </p>
-          <br />
-        </div>
-        <div class="sub-section">
-          <img
-            class="sub-image"
-            src="./images/github.svg"
-            alt=""
-            id="logo-section"
-          />
-          <h4 class="section-title">Github</h4>
-          <p class="sub-description">
-            A website to host your repositories online and lets you work
-            toghether on project.
-          </p>
-        </div>
-        <div class="sub-section">
-          <img
-            class="sub-image"
-            src="./images/css3-alt.svg"
-            alt=""
-            id="logo-section"
-          />
-          <h4 class="section-title">CSS</h4>
-          <p class="sub-description">
-            CSS is a language that describes the style of an HTML document.
-          </p>
-          <br />
-        </div>
-        <div class="sub-section">
-          <img
-            class="sub-image"
-            src="./images/square-js.svg"
-            alt=""
-            id="logo-section"
-          />
-          <h4 class="section-title">Javascript</h4>
-          <p class="sub-description">
-            JavaScript is a programming language that is one of the core
-            technologies.
-          </p>
-        </div>
-      </div>
-      <a href="#" id="see-pro">SEE THE WHOLE PROGRAM</a>
-    </section>
-    <section class="feature-speaker-container" id="speaker"></section>
-    <section id="partner">
-      <h4 class="partner-title">Partner</h4>
-      <div class="partner-lists">
-        <img
-          src="./images/instagram.png"
-          alt="instagram"
-          class="partner-list"
-        />
-        <img src="./images/youtube.png" alt="youtube" class="partner-list" />
-        <img src="./images/twitter.png" alt="twitter" class="partner-list" />
-        <img src="./images/twitch.png" alt="twitch" class="partner-list" />
-      </div>
-    </section>
-    <!--End of partner-->
-    <footer id="footer">
-      <div class="middle">
-        <p class="text">&copy;copyright 2022-Microverse. All right reserved.</p>
-      </div>
-    </footer>
-    <script src="script.js"></script>
-  </body>
+                    <ul class="main">
+                        <li class="menu"><a href="#main-pro"
+                                class="menu" id="program">Program</a></li>
+                        <li class="menu"><a href="#speaker"
+                                class="menu" id="speaker">Speakers</a></li>
+                        <li class="menu"><a href="#partner"
+                                class="menu" id="sponsor">Sponsors</a></li>
+                        <li class="menu"><a href="about.html"
+                                class="menu" id="openAbout">About</a></li>
+                    </ul>
+
+                </div>
+                <ul class="second-one">
+                    <li> <a href="#main-program" class="link">Programs</a></li>
+                    <li> <a href="#speaker" class="link">Speakers</a></li>
+                    <li> <a href="#partner" class="link">Partner</a></li>
+                    <li> <a href="about.html" class="link-1">About</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!--start of home page-->
+        <section class="heading" id="home-1">
+            <div class="home">
+                <img src="./images\hamburger.png" alt="Humbergar
+                    icon" class="hamburger" width="50px" id="hamburger">
+                <p class="hello">"Hello! Sharing world"</p><br>
+                <h1 class="sub-title">The Best Online School 2022</h1><br>
+                <P class="description">Microverse is a global school for remote
+                    software developers where students learn through remote pair
+                    programming and don't pay anything until they get a job.</P><br><br>
+                <h4 class="date">2022.6.22 (MON) ~ (Friday)</h4><br>
+                <p class="location">San Francisco, California, United States</p><br><br>
+            </div>
+        </section>
+        <section id="main-pro">
+            <h2 class="sections-title" id="main-program">Main Program</h2><br>
+            <br><br>
+            <div class="sections">
+                <div class="sub-section">
+                    <img class="sub-image" src="./images/html.png" alt=""
+                        id="logo-section">
+                    <h4 class="section-title">HTML</h4>
+                    <p class="sub-description">HTML is the standard markup
+                        language for creating Web pages.</p><br>
+                </div>
+                <div class="sub-section">
+                    <img class="sub-image" src="./images/react.png" alt=""
+                        id="logo-section">
+                    <h4 class="section-title">React</h4>
+                    <p class="sub-description">React is a free and open-source front-end javascript library.</p><br>
+                </div>
+                <div class="sub-section"><img class="sub-image" src="./images/github.png"
+                        alt="" id="logo-section">
+                    <h4 class="section-title">Github</h4>
+                    <p class="sub-description">A website to host your
+                        repositories online and lets you work toghether on project.</p>
+                </div>
+                <div class="sub-section">
+                    <img class="sub-image" src="./images/css.png" alt=""
+                        id="logo-section">
+                    <h4 class="section-title">CSS</h4>
+                    <p class="sub-description">CSS is a language that describes
+                        the style of an HTML document.</p><br>
+                </div>
+                <div class="sub-section">
+                    <img class="sub-image" src="./images/images.png"
+                        alt="" id="logo-section">
+                    <h4 class="section-title">Javascript</h4>
+                    <p class="sub-description">JavaScript is a programming
+                        language that is one of the core technologies.</p>
+                </div>
+            </div>
+            <a href="#" id="see-pro">SEE THE WHOLE PROGRAM</a>
+        </section>
+
+        <section class="feature-speaker-container" id="speaker">
+        </section>
+
+        <section id="partner">
+            <h4 class="partner-title">Partner</h4>
+            <div class="partner-lists">
+                <img src="./images/instagram.png" alt="instagram"
+                    class="partner-list">
+                <img src="./images/youtube.png" alt="youtube"
+                    class="partner-list">
+                <img src="./images/twitter.png" alt="twitter"
+                    class="partner-list">
+                <img src="./images/twitch.png" alt="twitch"
+                    class="partner-list">
+            </div>
+        </section>
+        <!--End of partner-->
+        <footer id="footer">
+            <div class="total">
+                <div class="footer-logo-container"><div class="footer-logo">Microverse</div></div>
+                <div class="middle">
+                    <p class="text"> &copy;copyright 2022-Microverse. All right
+                        reserved.</p>
+                </div>
+            </div>
+        </footer>
+        <script src="script.js"></script>
+    </body>
 </html>

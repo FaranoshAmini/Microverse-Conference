@@ -4,19 +4,30 @@ body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "lato", sans-serif;
 }
 
 a {
   text-decoration: 0;
 }
 
-/* .hamburger {
+.hamburger {
   position: fixed;
-} */
+}
 
 @media (max-width: 1024px) {
-  .first-logo, #first-nav-bar, .second-one,.forth-nav {
+  .first-logo {
+    display: none;
+  }
+
+  #first-nav-bar {
+    display: none;
+  }
+
+  .second-one {
+    display: none;
+  }
+
+  .forth-nav {
     display: none;
   }
 
@@ -76,37 +87,17 @@ a {
   }
 
   .heading {
-    background-image: url("images/background.png");
+    background-image: url(images/student-849825_1280.jpg);
     background-repeat: no-repeat;
     text-align: center;
   }
 
   .home {
-    /* background-color: #fcfcfce8; */
+    background-color: #fcfcfce8;
     padding-bottom: 50px;
   }
 
-  .hello {
-    color: #ec5242;
-    font-size: 30px;
-    padding-left: 20px;
-    padding-top: 15px;
-    padding-bottom: 0;
-    margin-bottom: 0;
-    margin-top: 0;
-  }
-
   .sub-title {
-    color: #ec5242;
-    font-size: 50px;
-    padding-left: 20px;
-    margin-top: 0;
-    width: 93%;
-    margin-bottom: 0;
-    font-weight: bolder;
-  }
-
-  /* .sub-title {
     color: #ec5242;
     font-size: 40px;
     text-align: center;
@@ -123,23 +114,25 @@ a {
     width: 20%;
     padding-top: 1rem;
     border-bottom: 2px solid #ec5242;
-  } */
+  }
 
   .description {
     color: #272a31;
-    font-size: 22px;
-    line-height: 2rem;
-    margin:auto;
-    margin-top: 40px;
-    width: 82%;
-    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+    border: 3px solid white;
+    margin-top: 0;
+    margin-bottom: 0;
   }
 
   .contact {
     text-align: center;
     color: #272a31;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 20px;
   }
 
   .email {
@@ -323,10 +316,6 @@ a {
     color: #d3d3d3;
     font-size: 17px;
   }
-
-  /* .feature-box-container {
-  padding-left: 0;
-} */
 }
 
 @media (min-width: 1025px) {
@@ -594,11 +583,36 @@ a {
     font-size: 20px;
   }
 
-   .middle {
-    color: #272a31;
+  #footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #272a31;
+  }
+
+  .total {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .footer-logo {
+    color: purple;
+    background-color: white;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-left: 10px;
+    border: 2px solid purple;
+    border-radius: 5px;
+  }
+
+  .middle {
+    color: #d3d3d3;
     font-size: 17px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    text-align: center;
   }
 }
