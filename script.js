@@ -60,7 +60,10 @@ featureBoxContainer.classList.add('feature-box-container');
 
 speakers.forEach(s => {
   featureBoxContainer.innerHTML += `<li class="feature-box">
-  <img class="image arielimage" src="${s.Image}" />
+  <div class="speaker-image">
+    <img class="top-image" src="./images/Tiles.svg">
+    <img class="bottom-image" src="${s.Image}" />
+  </div>
     <div class="feature-box-content">
       <div class="feature-box-text arielname">${s.Name}</div>
       <div class="feature-box-text1 arieltitle">${s.Title}</div>
