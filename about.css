@@ -79,8 +79,10 @@ a {
     padding-bottom: 50px;
   }
 
-  .hello,.sub-title,.logo-part {
-        color: #ec5242;
+  .hello,
+  .sub-title,
+  .logo-part {
+    color: #ec5242;
   }
 
   .hello {
@@ -104,7 +106,7 @@ a {
     padding-top: 1rem;
     border-bottom: 2px solid #ec5242;
   }
-  
+
   .description {
     color: #272a31;
     background-color: white;
@@ -286,7 +288,7 @@ a {
     margin-left: 70px;
   }
 
-   header {
+  header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -309,7 +311,11 @@ a {
     transition: ease-in-out 0.5s;
   }
 
-  .first-logo,.link:hover,#first-icons:hover,.sub-title,.logo-part {
+  .first-logo,
+  .link:hover,
+  #first-icons:hover,
+  .sub-title,
+  .logo-part {
     color: #ec5242;
   }
 
@@ -449,13 +455,15 @@ a {
     margin: 50px 20px;
   }
 
-  .one,.two {
+  .one,
+  .two {
     background-image: url(./images/new1.png);
     height: 300px;
     width: 400px;
   }
 
-  .one-content,.two-content {
+  .one-content,
+  .two-content {
     background-color: #ec5342af;
     width: 100%;
     height: 100%;
@@ -465,13 +473,15 @@ a {
     flex-direction: column;
   }
 
-  .one-date,.two-date {
+  .one-date,
+  .two-date {
     color: white;
     font-size: 40px;
     text-align: center;
   }
 
-  .one-p,.two-p {
+  .one-p,
+  .two-p {
     color: white;
     font-size: 20px;
   }
