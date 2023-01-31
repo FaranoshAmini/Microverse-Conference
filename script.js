@@ -58,7 +58,7 @@ container.appendChild(h3);
 const featureBoxContainer = document.createElement('ul');
 featureBoxContainer.classList.add('feature-box-container');
 
-speakers.forEach(s => {
+speakers.forEach((s) => {
   featureBoxContainer.innerHTML += `<li class="feature-box">
   <div class="speaker-image">
     <img class="bottom-image" src="${s.Image}" />
