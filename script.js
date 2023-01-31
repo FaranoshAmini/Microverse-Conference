@@ -68,6 +68,6 @@ speakers.forEach(s => {
       <div class="feature-box-text1 arieltitle">${s.Title}</div>
       <div class="feature-box-text2 arielmore">${s.More}</div>
     </div>
-</li>`
+</li>`;
   container.appendChild(featureBoxContainer);
-})
+});
