@@ -21,7 +21,7 @@ const speakers = [{
   Name: 'Andrea Funda',
   Title: 'STUDENT SUCCESS',
   Image: 'images/Andrea.png',
-  More: ' Professionally though, she loves helping people find their way. Her background is in process, project, and people management.',
+  More: ' Professionally though, she loves helping people find their way. Her background is in process.',
 },
 {
   Name: 'Emilia Andrezejewska',
