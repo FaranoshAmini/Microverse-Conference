@@ -5,9 +5,9 @@
 
 ## 🖥️ Live Demo
 
--[SHORT DESCRIPTION](https://www.loom.com/share/1f1534db165e41c4bbc3bf05fb467947/)
+-[SHORT DESCRIPTION](https://www.loom.com/share/c1b889f46f6545d09066a3d8372519d6)
 
--[LIVE DEMO](https://faranoshamini.github.io/Microverse-Conference/) 
+-[LIVE DEMO](https://faranosh-amini-microverse-conference.netlify.app/) 
 
 ## Built With
 
