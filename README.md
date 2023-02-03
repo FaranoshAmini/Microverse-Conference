@@ -7,7 +7,7 @@
 
 -[SHORT DESCRIPTION](https://www.loom.com/share/c1b889f46f6545d09066a3d8372519d6)
 
--[LIVE DEMO](https://faranosh-amini-microverse-conference.netlify.app/) 
+-[LIVE DEMO](https://faranoshamini.github.io/Microverse-Conference/) 
 
 ## Built With
 
